@@ -20,6 +20,7 @@ cc.Class({
     },
 
     callback: function (event) {
+        cc.log('\n');
         var l = this.getComponentInChildren(cc.Label); 
         cc.log(l.string);
 
