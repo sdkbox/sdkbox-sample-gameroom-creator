@@ -20,9 +20,9 @@ cc.Class({
     },
 
     callback: function (event) {
-        cc.log('\n');
+        sdkbox.PluginGameroom.log('\n');
         var l = this.getComponentInChildren(cc.Label); 
-        cc.log(l.string);
+        sdkbox.PluginGameroom.log(l.string);
 
         sdkbox.PluginGameroom.logAppEvent('test_event_1', { 'key1': 'val1', 'key2': 'val2' });
         sdkbox.PluginGameroom.logAppEventWithValueToSum('test_event_2', { 'key3': 'val3', 'key4': 'val4' }, 10.24);

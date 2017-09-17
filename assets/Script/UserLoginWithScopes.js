@@ -21,9 +21,9 @@ cc.Class({
     },
 
     callback: function (event) {
-        cc.log('\n');
+        sdkbox.PluginGameroom.log('\n');
         var l = this.getComponentInChildren(cc.Label); 
-        cc.log(l.string);
+        sdkbox.PluginGameroom.log(l.string);
 
         sdkbox.PluginGameroom.loginWithScopes(2, ['public_profile', 'email']);
     }

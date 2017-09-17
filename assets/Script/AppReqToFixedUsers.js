@@ -20,9 +20,9 @@ cc.Class({
     },
 
     callback: function (event) {
-        cc.log('\n');
+        sdkbox.PluginGameroom.log('\n');
         var l = this.getComponentInChildren(cc.Label); 
-        cc.log(l.string);
+        sdkbox.PluginGameroom.log(l.string);
 
         sdkbox.PluginGameroom.appRequest('hello, try this js demo.', '', '', '10154757370282483,1071096156356265,502296886783243', '', '', 20, '', 'hello');
     }
